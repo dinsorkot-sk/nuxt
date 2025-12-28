@@ -1,5 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  app: { baseURL: '/nuxt/' // เช่น '/my-nuxt-app/' 
+  },
   modules: [
     '@nuxt/eslint',
     '@nuxt/ui'
